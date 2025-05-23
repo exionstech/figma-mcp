@@ -2,7 +2,6 @@
 
 This project implements a Model Context Protocol (MCP) integration between Cursor AI and Figma, allowing Cursor to communicate with Figma for reading designs and modifying them programmatically.
 
-https://github.com/user-attachments/assets/129a14d2-ed73-470f-9a4c-2240b2a4885c
 
 ## Project Structure
 
@@ -38,19 +37,6 @@ bunx cursor-talk-to-figma-mcp
 
 5. **NEW** Install Figma plugin from [Figma community page](https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin) or [install locally](#figma-plugin)
 
-## Quick Video Tutorial
-
-[Video Link](https://www.linkedin.com/posts/sonnylazuardi_just-wanted-to-share-my-latest-experiment-activity-7307821553654657024-yrh8)
-
-## Design Automation Example
-
-**Bulk text content replacement**
-
-Thanks to [@dusskapark](https://github.com/dusskapark) for contributing the bulk text replacement feature. Here is the [demo video](https://www.youtube.com/watch?v=j05gGT3xfCs).
-
-**Instance Override Propagation**
-Another contribution from [@dusskapark](https://github.com/dusskapark)
-Propagate component instance overrides from a source instance to multiple target instances with a single command. This feature dramatically reduces repetitive design work when working with component instances that need similar customizations. Check out our [demo video](https://youtu.be/uvuT8LByroI).
 
 ## Manual Setup and Installation
 
@@ -246,7 +232,3 @@ When working with the Figma MCP:
 - Use `get_reactions` to extract prototype flows,
 - set a default connector with `set_default_connector`,
 - and generate connector lines with `create_connections` for clear visual flow mapping.
-
-## License
-
-MIT
